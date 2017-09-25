@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm test",
     "start": "webpack",
-    "server": "webpack-dev-server --open",
+    "server": "webpack-dev-server --open --port 8080--host 0.0.0.0",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress"
   },
   "author": "",
